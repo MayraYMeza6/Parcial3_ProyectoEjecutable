@@ -1,4 +1,37 @@
-# Visual Studio 2015 user specific files
+# Unreal Engine 5
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Visual Studio
+.vs/
+*.VC.db
+*.suo
+*.opensdf
+*.sdf
+*.user
+
+# Logs
+*.log
+
+# Builds
+Build/*
+
+# Mantener archivos importantes
+!Build/**/*.ico
+!Build/**/*.png
+!Build/**/*.bmp
+!Build/**/*.icns
+
+# Archivos importantes del proyecto
+!Config/
+!Content/
+!Plugins/
+!Source/
+
+!*.uproject
+!*.uplugin# Visual Studio 2015 user specific files
 .vs/
 
 # Compiled Object files
